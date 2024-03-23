@@ -1,0 +1,14 @@
+% Define coordinates of the points
+x1 = input('Enter x coordinate of point 1: ');
+y1 = input('Enter y coordinate of point 1: ');
+z1 = input('Enter z coordinate of point 1: ');
+
+x2 = input('Enter x coordinate of point 2: ');
+y2 = input('Enter y coordinate of point 2: ');
+z2 = input('Enter z coordinate of point 2: ');
+
+% Calculate distance between the two points
+distance = sqrt((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2);
+
+% Print the calculated distance
+fprintf('Distance between the two points: %.2f\n', distance);
